@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seller's Admin Page</title>
+</head>
+<body>
+
+    <form id='booking_form' action="">
+
+        <label for="SellingPrice">Selling Price: </label>
+        <input type="text" id="price">
+        <label for="ProductName">Product Name: </label>
+        <input type="text" id="name">
+        <input type="submit" class="'submit" value="Submit">
+
+        <h1>Products</h1>
+
+        <ul id="users"></ul>
+
+        <label for="">Total Value Worth of Products: Rs.</label>
+        <input type="number" value="0" id="worth" style="border: none;" disabled>
+
+    </form>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.4.0/axios.min.js"></script>
+    <script src="main.js"></script>
+    
+</body>
+</html>
